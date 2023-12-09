@@ -1,0 +1,491 @@
+.wrapper{
+    background-color: #1C1B21;
+    height: 100%;
+    display: grid;
+    grid-template: minmax(100px, auto) 1fr minmax(100px, auto);
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    
+}
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 0 25px;
+}
+.header{
+    position: relative;
+    
+}
+.header-bg{
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.header-inner{
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: minmax(auto, 250px) minmax(auto, 700px);
+    align-items: center;
+    gap: 20px;
+    justify-content: space-around;
+    position: relative;
+    z-index: 2;
+    
+}
+.header-logo{
+    padding-top: 5px;
+    display: flex;
+    gap: 5px;
+    flex-wrap: nowrap;
+}
+.header-logo img{
+    min-width: 67%;
+}
+.header-list{
+    display: grid;
+    grid-auto-flow: column;
+    gap: 10px;
+}
+.header-link{
+    font-size: 18px;
+    font-weight: 600;
+}
+.header-content {
+    position: relative;
+    z-index: 2;
+}
+.header-content_inner {
+    padding-top: 30%;
+    
+}
+.header-suptitle {
+    font-size: 48px;
+    font-weight: 700;
+}
+.header-title {
+    font-size: 100px;
+    font-weight: 700;
+    padding: 20px 0;
+}
+.carts {
+    padding-top: 10%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    align-items: center;
+    
+}
+.cart{
+    position: relative;
+}
+.cart img{
+    border-radius: 20px 0px;
+    width: 100%;
+}
+.cart p{
+    border-radius: 20px 0px;
+    background:#7a66cc88;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 25px 30px;
+    
+}
+
+.bright {
+    padding-top: 180px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+.bright-inner {
+}
+.section-title {
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 5%;
+}
+
+.section-title img{
+    padding-top: 7px;
+}
+.bright-text {
+    max-width: 540px;
+    padding:5% 0 12%;
+    font-size: 16px;
+}
+.bright-items {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    
+}
+.bright-item {
+    display: flex;
+}
+.bright-item  p{
+    padding: 5px 7px 0;
+    font-size: 18px;
+}
+.bright_images {
+    text-align: center;
+    padding: 60px;
+}
+
+.comment {
+    position: relative;
+    padding-top: 180px;
+    margin: 5% 0 0;
+}
+.comment-text {
+    position: relative;
+    z-index: 1;
+    border-radius: 30px 0px;
+    border: 1px solid #FFF;
+    background: #1C1B21;
+    padding: 50px 80px;
+}
+.comment-text p{
+    padding-bottom: 25px;
+    max-width: 520px;
+    border-bottom: 1px solid #FFF;
+    font-size: 18px;
+}
+.comment-sub {
+    padding-top: 10px;
+    font-size: 18px;
+    color: #7A66CC;
+}
+.comment-img {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    z-index: 2;
+}
+
+
+.tracks {
+    padding-top: 220px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-between;
+    gap: 40px;
+}
+.tracks-image{
+   
+}
+.tracks-inner {
+    max-width: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.tracks-title {
+}
+.tracks-stroke img{
+    padding:20px 0 30px;
+}
+.tracks-items {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 18px;
+}
+.tracks-item{
+    display: flex;
+    gap: 10px;
+}
+.tracks-item.colour-item {
+    color: #7A66CC;
+
+}
+.tracks-follow {
+    padding: 50px 0 20px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+}
+.tracks-follow_text{
+    font-size: 24px;
+    font-weight: 600;
+}
+.tracks-follow_link {
+    display: flex;
+    align-items: center;
+}
+
+
+.gallery{
+    margin-top: 150px;
+    
+}
+.gallery img{
+    width: 100%;
+    object-fit: cover;
+}
+.events{
+    padding-top: 180px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    justify-content: space-between;
+    gap: 40px;
+   
+
+}
+.events-items{
+    border-radius: 30px 0px;
+    background: #2F2B2B;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.events-items img{
+    width: 100%;
+}
+.events-text{
+    font-size: 18px;
+    position: relative;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.events-suptitle {
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: bold;
+    
+}
+.events-title {
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+.events-info {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    width: 100%;
+    padding-top: 40px;
+}
+.info-text {
+    padding: 18px 0 18px  55px ;
+}
+.info-tickets {
+    font-size: 18px;
+    padding: 18px 65px;
+    border-radius: 30px 0px;
+    background: var(--accent, #7A66CC);
+}
+
+
+.footer {
+    padding: 150px 0 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+.footer-text_items {
+    display: flex;
+    max-width: 540px;
+    margin: 0 auto;
+    gap: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+    
+}
+.footer-text.item-left{
+    text-align: right;
+}
+.footer-text.item-right{
+    text-align: left;
+}
+.footer-links {
+    display: grid;
+    grid-auto-flow: column;   
+    margin: 0 auto; 
+    max-width: 540px;
+    gap: 10px;
+}
+.footer-copy{
+    padding-top: 40px;font-size: 13px;
+    text-transform: uppercase;
+    color: #777;
+}
+
+@media (max-width: 1200px){
+
+    .header-bg{
+        height: 100%;
+    }
+    .bright-inner{
+        margin: 0 auto;
+    }
+    .bright_images{
+        margin: 0 auto;
+    }
+    .comment-img{
+        position: relative;
+        right: 0;
+        width: 100%;
+        object-fit: cover;
+        padding: 60px 20px 0;
+    }
+    .events-info{
+        font-size: 14px;
+        text-align: center;
+        
+    }
+    .info-tickets{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 1000px){
+    .header-suptitle{
+        font-size: 30px;
+    }
+    .header-title{
+        font-size: 55px;
+    }
+    
+    .comment{
+        padding-top: 80px;
+    }
+    
+    .comment-img img{
+        
+    }
+    .gallery{
+        padding-top: 80px;
+    }
+    .tracks-items{
+        font-size: 14px;
+    }
+
+    .info-text{
+        padding-left: 35px;
+    }
+    .info-tickets{
+        padding: 18px 35px;
+    }
+    .footer-text.item-left, .footer-text.item-right{
+        font-size: 14px;
+    }
+    
+}
+@media (max-width: 800px){
+    .header-suptitle {
+        font-size: 28px;
+    }
+    .header-title {
+        font-size: 50px;
+    }
+    .header-link{
+        font-size: 13px;
+    }
+    
+    .bright{
+        padding-top: 266px;
+    }
+   /*
+    .events-text{
+        padding: 15px;
+    }
+    .events-suptitle{
+        font-size: 12px;
+    }
+    .events-title{
+        font-size: 16px;
+    }
+    .info-text{
+        padding-left: 15px;
+    }
+    .info-tickets{
+        padding: 18px 25px;
+    }*/
+    
+
+}
+@media(max-width: 760px) {
+    .bright{
+        padding-top: 180px;
+    }
+    .header-link{
+        font-size: 13px;
+    }
+}
+@media(max-width: 610px) {
+    
+    .bright{
+        padding-top: 133px;
+    }
+    .comment{
+        padding-top: 60px;
+    }
+    .tracks{
+        padding-top: 120px;
+    }
+    .gallery{
+        margin-top: 60px;
+    }
+    .events{
+        padding-top: 80px;
+    }
+    .section-title, .bright-title{
+        font-size: 35px;
+    }
+    .bright-text{
+        font-size: 15px
+    }
+   
+    
+}
+@media(max-width: 570px) {
+    .header-suptitle {
+        font-size: 14px;
+    }
+    .header-title {
+        font-size: 33px;
+        
+    }
+    .comment-text{
+        font-size: 13px;
+        padding: 18px;
+    }
+    .header-link{
+        font-size: 8px;
+    }
+}
+@media(max-width: 450px){
+    .bright-item p{
+        font-size: 14px;
+    }
+    .comment-text{
+        font-size: 10px;
+    }
+    .footer-text.item-left, .footer-text.item-right{
+        font-size: 10px;
+    }
+    .footer-links{
+        padding:0 15px;
+    }
+}
+
+
+
+
+
+
+
+
